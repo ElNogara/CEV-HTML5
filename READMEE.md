@@ -1,3 +1,3 @@
-# CEV-HTML5
+#CEV-HTML5
 
-teste
+Projeto para praticar HTML5.

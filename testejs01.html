@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Testes de JS</title>
+        <meta charset="utf-8"/>
+        <script>
+            var vL = 1;
+            function acendeLampada() {
+                if (vL != 0) {
+                    document.getElementById("luz").src = "_imagens/lampada-acesa.jpg";
+                }
+            }
+            function apagaLampada() {
+                if (vL != 0) {
+                    document.getElementById("luz").src = "_imagens/lampada-apagada.jpg";
+                }
+            }
+            function quebraLampada(){
+                vL = 0;
+                document.getElementById("luz").src = "_imagens/lampada-quebrada.jpg";
+            }
+
+        </script>
+    </head>
+    <body>
+        <img src="_imagens/lampada-apagada.jpg" id="luz" onmouseenter="acendeLampada()" onmouseout="apagaLampada()" onclick="quebraLampada()"/>
+        <h1>Testando JS</h1>
+        <script>
+            document.write("<h1>Olá hoje é dia " + Date() + "</h1>");
+        </script>
+    </body>
+</html>

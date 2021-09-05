@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+form{
+    width: 500px;
+    margin: auto;
+
+}
+
+input, textarea{
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+
+}
+
+input:hover, textarea:hover{
+    background-color: burlywood;
+}
+
+legend{
+    color: burlywood;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+fieldset{
+    border-color: burlywood;
+    margin: 20px;
+}
+
+fieldset#sexo{
+    width: 150px;
+}
+
+fieldset#usuario{
+    background: url("../_imagens/icone-contato.png") no-repeat 95% 95%;
+
+}
